@@ -1,0 +1,23 @@
+{
+  "name": "roman-numeral-test",
+  "version": "1.0.0",
+  "description": "A web program for converting numbers to roman numerals",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamaechi25/roman_test.git"
+  },
+  "author": "Kelechi",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.9.0",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "appmetrics-dash": "^5.3.0"
+  }
+}
